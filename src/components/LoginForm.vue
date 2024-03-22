@@ -72,7 +72,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('/public/images/istockphoto-949190756-612x612.jpg') no-repeat center center fixed;
+    background: url('/public/images/photo_1_boys_soccerkick.jpg') no-repeat center center fixed;
     background-size: cover;
     filter: blur(2px); /* Aplica el efecto de difuminación a la imagen de fondo */
     z-index: -1; /* Asegura que la imagen esté detrás del contenido */

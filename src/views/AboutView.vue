@@ -1,5 +1,5 @@
 <template>
-  
+  <HeaderComponent />
 </template>
 
 <style>
