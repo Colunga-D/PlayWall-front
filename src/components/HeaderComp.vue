@@ -1,5 +1,6 @@
 <template>
-  <header class="sports-header">
+  <header v-if="mostrarHeader" class="header">
+
     <div class="header-content">
       <div class="left-section">
         <div class="logo-container">
@@ -30,13 +31,14 @@
 </template>
 
 <script setup>
+ let mostrarHeader = true;
 import { ref } from 'vue';
 
 const showDropdown = ref(false);
 </script>
 
 <style scoped lang="scss">
-.sports-header {
+.header {
   background-color: #1a1a1a;
   color: #fff;
   padding: 30px 0;
@@ -54,7 +56,8 @@ const showDropdown = ref(false);
   padding: 0 30px;
 }
 
-.left-section, .right-section {
+.left-section,
+.right-section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -102,7 +105,8 @@ const showDropdown = ref(false);
   align-items: center;
 }
 
-.login-button, .register-button {
+.login-button,
+.register-button {
   background-color: #fff;
   color: #000;
   border: none;
@@ -114,7 +118,8 @@ const showDropdown = ref(false);
   font-size: 1.4rem;
 }
 
-.login-button:hover, .register-button:hover {
+.login-button:hover,
+.register-button:hover {
   background-color: #ddd;
 }
 
@@ -142,7 +147,8 @@ const showDropdown = ref(false);
     align-items: flex-start;
   }
 
-  .left-section, .right-section {
+  .left-section,
+  .right-section {
     align-items: center;
   }
 

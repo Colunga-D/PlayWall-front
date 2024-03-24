@@ -1,10 +1,15 @@
 <script setup>
-import LoginFormVue from "@/components/LoginForm.vue";
 
+import LoginFormVue from "@/components/LoginForm.vue";
 </script>
 
 <template>
     <main>
-        <LoginFormVue />
+      <LoginFormVue />
     </main>
-</template>
+  </template>
+  
+ 
+  
+  <style scoped>
+  </style>

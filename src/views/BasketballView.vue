@@ -1,13 +1,16 @@
 <script setup>
-import HeaderComponent from '@/components/HeaderComponent.vue';
-
+import FooterComp from '@/components/FooterComp.vue';
+import HeaderComp from '@/components/HeaderComp.vue';
 
 </script>
 
 <template>
-  <main>
-    <HeaderComponent/>
 
+  <HeaderComp/>
 
-  </main>
+   
+    <FooterComp/>
 </template>
+<style lang="scss">
+</style>
+

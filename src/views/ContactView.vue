@@ -1,3 +1,4 @@
+
 <script setup>
 import HeaderComponent from '@/components/HeaderComp.vue';
 import FooterComponent from '@/components/FooterComp.vue';
