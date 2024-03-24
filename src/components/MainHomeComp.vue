@@ -1,15 +1,15 @@
 <template>
     <main class="home-main">
       <div class="column" @click="navigateTo('soccer')">
-        <img src="/path/to/soccer-image.jpg" alt="Soccer" class="column-image">
+        <img src="" alt="Soccer" class="column-image">
         <h3 class="column-title">Fútbol</h3>
       </div>
       <div class="column" @click="navigateTo('tennis')">
-        <img src="/path/to/tennis-image.jpg" alt="Tennis" class="column-image">
+        <img src="" alt="Tennis" class="column-image">
         <h3 class="column-title">Tenis</h3>
       </div>
       <div class="column" @click="navigateTo('basketball')">
-        <img src="/path/to/basketball-image.jpg" alt="Basketball" class="column-image">
+        <img src="" alt="Basketball" class="column-image">
         <h3 class="column-title">Baloncesto</h3>
       </div>
     </main>

@@ -1,20 +1,19 @@
-<template>
-  <div id="app">
-    <HeaderComp :mostrarHeader="mostrarHeader" />
-    <router-view />
-    <FooterComp />
-  </div>
-</template>
-
 <script setup>
-import HeaderComp from './components/HeaderComp.vue';
-import FooterComp from './components/FooterComp.vue';
-import { useRoute } from 'vue-router';
+import { RouterLink, RouterView } from 'vue-router'
+import FooterCompVue from './components/FooterComp.vue'
+import HeaderCompVue from './components/HeaderComp.vue'
 
-const route = useRoute();
-const mostrarHeader = route.name !== 'login' && route.name !== 'register'; // Ocultar el header en las vistas de login y registro
+
 </script>
 
+<template>
+
+
+<HeaderCompVue/>
+  <RouterView />
+<FooterCompVue/>
+
+</template>
+
 <style scoped>
-/* Estilos específicos de la aplicación */
 </style>
