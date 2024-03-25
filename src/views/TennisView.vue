@@ -4,7 +4,11 @@
 </script>
 
 <template>
-
-</template>
-<style lang="scss">
-</style>
+    <main>
+    </main>
+  </template>
+  
+ 
+  
+  <style scoped>
+  </style>

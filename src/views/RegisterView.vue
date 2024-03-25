@@ -66,7 +66,7 @@
   </script>
   <style scoped>
   .register-background {
-    background-image: url('/public/images/background.jpg');
+    background-image: url('/public/images/Protocolo\ deportistas.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
